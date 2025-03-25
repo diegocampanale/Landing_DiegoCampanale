@@ -6,6 +6,10 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-.fontHeroHeader {
+.font-mulish{
   font-family: 'Mulish', sans-serif;
+}
+
+.boxShadow{
+  box-shadow: 34.85px 29.63px 48.34px 0px #3366FF0D;
 }
