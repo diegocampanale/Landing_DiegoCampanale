@@ -29,7 +29,7 @@ import LinkedinLogo from '../assets/icons/LinkedinLogo.svg';
 export const CTAs = [
   { text: "Get Started", link: "#", icons:[<Rocket size={20}/>,<ArrowRight size={20}/>] },
   { text: "How it works", link: "#"},
-]
+];
 
 export const testimonials = [
   {
