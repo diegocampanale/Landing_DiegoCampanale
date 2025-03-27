@@ -1,5 +1,5 @@
 import logo from "../assets/logo.svg"
-import { Rocket } from 'lucide-react';
+import { icons, Rocket } from 'lucide-react';
 import { ArrowRight } from 'lucide-react';
 
 import FlyingSaucer from '../assets/icons/FlyingSaucer.svg'
@@ -20,6 +20,11 @@ import SpotifyLogo from "../assets/icons/SpotifyLogo.svg";
 import DiscordLogo from "../assets/icons/DiscordLogo.svg";
 import KickstarterLogo from "../assets/icons/KickstarterLogo.svg";
 import DropboxLogo from "../assets/icons/DropboxLogo.svg";
+
+import YoutubeLogo from "../assets/icons/YoutubeLogo.svg";
+import InstagramLogo from '../assets/icons/InstagramLogo.svg';
+import GithubLogo from '../assets/icons/GithubLogo.svg';
+import LinkedinLogo from '../assets/icons/LinkedinLogo.svg';
 
 export const CTAs = [
   { text: "Get Started", link: "#", 
@@ -93,6 +98,13 @@ export const logos = [
   { name: "Kickstarter", image: KickstarterLogo, link:"#"},
   { name: "Dropbox", image: DropboxLogo, link:"#"},
 ];
+
+export const footerSocialLinks = [
+  { name: "Youtube", link: "#", icon: YoutubeLogo },
+  { name: "Instagram", link: "#", icon: InstagramLogo},
+  { name: "Github", link: "#", icon: GithubLogo },
+  { name: "Linkedin", link: "#", icon: LinkedinLogo },
+]
 
 /*  
 import { BotMessageSquare } from "lucide-react";

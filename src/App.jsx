@@ -6,6 +6,7 @@ import Testimonials from './components/Testimonials';
 import Team from './components/Team';
 import LogoBar from './components/LogoBar';
 import HighlightedCTA from './components/HighlightedCTA';
+import Footer from './components/Footer';
 
 export const App = () => {
   return (
@@ -17,6 +18,7 @@ export const App = () => {
       <Team />
       <LogoBar />
       <HighlightedCTA />
+      <Footer />
     </>
   )
 }

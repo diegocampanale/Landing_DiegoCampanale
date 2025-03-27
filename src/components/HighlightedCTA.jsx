@@ -1,5 +1,5 @@
 import {CTAs} from '../constants'
-import DesktopMockup from '../assets/desktop_mockup.svg'
+import DesktopMockup from '../assets/desktop_mockup_mobile.svg'
 
 const HighlightedCTA = () => {
   return (
@@ -18,6 +18,18 @@ const HighlightedCTA = () => {
         </div>
 
         {/* Mockup */}
+        <div className="flex justify-center lg:px-[55px]">
+            <img className='w-full max-w-[1170px] mb-[-1px]' src={DesktopMockup} alt="Desktop Mockup" />
+        </div>
+
+        {/* Desktop
+        box-shadow: 10.59px 14.3px 20.06px 0px #00000026;       drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]
+        box-shadow: -2.26px -5.08px 3.95px 0px #0000001A inset;
+
+        Mobile 
+        box-shadow: 2.9px 3.91px 5.49px 0px #00000026;
+        box-shadow: -0.62px -1.39px 1.08px 0px #0000001A inset;
+        */}
 
     </div>
   )
