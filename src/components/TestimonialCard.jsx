@@ -1,6 +1,7 @@
 import { Star } from 'lucide-react';
 
 const TestimonialCard = ({ name, role, image, text, rating = 5 }) => {
+
   return (
     <div className="flex gap-[30px] p-[40px] bg-[#FFFFFF] rounded-[20px] border border-[#E5F4F2] max-w-[570px] drop-shadow-[0_35px_30px_rgba(51,102,255,0.05)]">
         <div className="flex flex-col lg:flex-row gap-[30px] items-center">

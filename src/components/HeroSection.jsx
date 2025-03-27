@@ -1,5 +1,5 @@
-import { Rocket } from 'lucide-react';
 import mockup from "../assets/mockup.svg";
+import {CTAs} from "../constants";
 
 const HeroSection = () => {
   return (
@@ -15,11 +15,11 @@ const HeroSection = () => {
                 </div>
                 {/* CTAs */}
                 <div className="grid grid-cols-1 lg:flex gap-[18px] mt-[40px] justify-items-center">
-                    <a href="#" className="flex items-center justify-center w-full lg:w-auto py-[16px] px-[50px] h-[60px] rounded-[20px] font-semibold text-base bg-[#009379] text-[#FFFFFF]">
-                        <span className="inline-block mr-[8px]"><Rocket size={20}/></span>
-                        Get Started
+                    <a href={CTAs[0].link} className="flex items-center justify-center w-full lg:w-auto py-[16px] px-[50px] h-[60px] rounded-[20px] font-semibold text-base bg-[#009379] text-[#FFFFFF]">
+                        <span className="inline-block mr-[8px]">{CTAs[0].icons[0]}</span>
+                        {CTAs[0].text}
                     </a>
-                    <a href="#" className="flex items-center justify-center w-full lg:w-auto py-[16px] px-[50px] h-[60px] rounded-[20px] font-semibold text-base bg-[#FFFFFF] text-[#009379] border border-[#009379]">How it works</a>
+                    <a href={CTAs[1].link} className="flex items-center justify-center w-full lg:w-auto py-[16px] px-[50px] h-[60px] rounded-[20px] font-semibold text-base bg-[#FFFFFF] text-[#009379] border border-[#009379]">{CTAs[1].text}</a>
                 </div>
             </div>
             {/* Mockup*/}
