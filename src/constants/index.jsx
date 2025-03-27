@@ -1,5 +1,5 @@
 import logo from "../assets/logo.svg"
-import { icons, Rocket } from 'lucide-react';
+import { Rocket } from 'lucide-react';
 import { ArrowRight } from 'lucide-react';
 
 import FlyingSaucer from '../assets/icons/FlyingSaucer.svg'
@@ -27,8 +27,7 @@ import GithubLogo from '../assets/icons/GithubLogo.svg';
 import LinkedinLogo from '../assets/icons/LinkedinLogo.svg';
 
 export const CTAs = [
-  { text: "Get Started", link: "#", 
-    icons:[<Rocket size={20}/>,<ArrowRight size={20}/>] },
+  { text: "Get Started", link: "#", icons:[<Rocket size={20}/>,<ArrowRight size={20}/>] },
   { text: "How it works", link: "#"},
 ]
 
