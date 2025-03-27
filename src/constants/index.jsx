@@ -1,4 +1,98 @@
+import logo from "../assets/logo.svg"
+import { Rocket } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
+import FlyingSaucer from '../assets/icons/FlyingSaucer.svg'
+import MagicWand from '../assets/icons/MagicWand.svg'
+import BoundingBox from '../assets/icons/BoundingBox.svg'
+import Package from '../assets/icons/Package.svg'
+
+import user1 from "../assets/images/photo1.png";
+import user2 from "../assets/images/photo2.png";
+
+import team1 from "../assets/images/team1.png";
+import team2 from "../assets/images/team2.png";
+import team3 from "../assets/images/team3.png";
+
+import LoomLogo from "../assets/icons/LoomLogo.svg";
+import StackLogo from "../assets/icons/StackLogo.svg";
+import SpotifyLogo from "../assets/icons/SpotifyLogo.svg";
+import DiscordLogo from "../assets/icons/DiscordLogo.svg";
+import KickstarterLogo from "../assets/icons/KickstarterLogo.svg";
+import DropboxLogo from "../assets/icons/DropboxLogo.svg";
+
+export const CTAs = [
+  { text: "Get Started", link: "#", 
+    icons:[<Rocket size={20}/>,<ArrowRight size={20}/>] },
+  { text: "How it works", link: "#"},
+]
+
+export const testimonials = [
+  {
+    name: "Lauren M.",
+    role: "UI Designer @Boo",
+    image: user1,
+    text: "“Anima’s Landing Page UI Kit has become a staple in my design toolkit. This kit has everything I need to get the job done quickly and efficiently.”",
+  },
+  {
+    name: "David B.",
+    role: "Lead Designer @Creative",
+    image: user2,
+    text: "“The Landing Page UI Kit has been a game changer. The pre-designed components and templates have helped us deliver projects faster!”",
+  },
+];
+
+export const features = [
+  {
+    icon: FlyingSaucer,
+    text: "Fast building",
+  },
+  {
+    icon: MagicWand,
+    text: "Easy to edit",
+  },
+  {
+    icon: BoundingBox,
+    text: "Responsiveness",
+  },
+  {
+    icon: Package,
+    text: "No code needed",
+  },
+];
+
+export const teamMembers = [
+  {
+    image: team1,
+    name: "Sarah K.",
+    role: "Lead Designer",
+    description: "With a passion for color and a love for clean lines, Sarah brings all our wildest design dreams to life.",
+    social: [{name: "Twitter", link: "#" }, {name: "Dribbble", link: "#" }, {name: "Linkedin", link: "#" }],
+  },
+  {
+    image: team2,
+    name: "Michael L.",
+    role: "Product Designer",
+    description: "Michael got a sharp eye for detail and the ability to turn any boring interface into a work of art.",
+    social: [{name: "Twitter", link: "#" }, {name: "Dribbble", link: "#" }, {name: "Linkedin", link: "#" }],
+  },
+  {
+    image: team3,
+    name: "Lauren M.",
+    role: "UX Designer",
+    description: "Lauren is the mastermind behind all the seamless user experiences you love. She's a wizard at making things intuitive.",
+    social: [{name: "Twitter", link: "#" }, {name: "Dribbble", link: "#" }, {name: "Linkedin", link: "#" }],
+  },
+];
+
+export const logos = [
+  { name: "Loom", image: LoomLogo, link:"#"},
+  { name: "Stack", image: StackLogo, link:"#"},
+  { name: "Spotify", image: SpotifyLogo, link:"#"},
+  { name: "Discord", image: DiscordLogo, link:"#"},
+  { name: "Kickstarter", image: KickstarterLogo, link:"#"},
+  { name: "Dropbox", image: DropboxLogo, link:"#"},
+];
 
 /*  
 import { BotMessageSquare } from "lucide-react";
@@ -15,45 +109,6 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
-
-export const testimonials = [
-  {
-    user: "John Doe",
-    company: "Stellar Solutions",
-    image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
-  },
-  {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
-    image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
-  },
-  {
-    user: "David Johnson",
-    company: "Quantum Innovations",
-    image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
-  },
-  {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
-    image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
-  },
-  {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
-    image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
-  },
-  {
-    user: "Emily Davis",
-    company: "Synergy Systems",
-    image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
-  },
-];
 
 export const features = [
   {
