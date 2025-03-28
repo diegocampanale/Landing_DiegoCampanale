@@ -18,7 +18,7 @@ const HighlightedCTA = () => {
         </div>
 
         {/* Mockup */}
-        <div className="flex justify-center lg:px-[55px]">
+        <div className="flex justify-center relative overflow-hidden 565justify-center lg:px-[55px]">
             <img className='w-full max-w-[1170px] mb-[-1px]' src={DesktopMockup} alt="Desktop Mockup" />
         </div>
 

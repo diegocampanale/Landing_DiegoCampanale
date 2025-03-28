@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex flex-row items-center justify-center gap-[16px]">
             {footerSocialLinks.map((social, index) => (
-                <a href={social.link} className="flex justify-center items-center bg-[#4E4D4D] w-[32px] h-[32px] rounded-[100%]"><img src={social.icon} alt={social.name} /></a>
+                <a key={index} href={social.link} className="flex justify-center items-center bg-[#4E4D4D] w-[32px] h-[32px] rounded-[100%]"><img src={social.icon} alt={social.name} /></a>
             ))}
         </div>
 

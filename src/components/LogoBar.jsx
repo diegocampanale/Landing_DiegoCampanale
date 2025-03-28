@@ -1,4 +1,4 @@
-import {logos} from "../constants";
+import {logos} from "../constants"
 
 const LogoBar = () => {
   return (
@@ -11,7 +11,7 @@ const LogoBar = () => {
         {  /* Logo Grid */}
         <div className="flex py-[32px] lg:py-[40px] justify-between ovewflow-x-auto">
             {logos.map((logo, index) => (
-                <div className="flex flex-row items-center w-[40px] sm:w-auto max-w-[64px] drop-shadow-[0_0px_10px_rgba(41,41,42,0.07)]">
+                <div key={index} className="flex flex-row items-center w-[40px] sm:w-auto max-w-[64px] drop-shadow-[0_0px_10px_rgba(41,41,42,0.07)]">
                     <a className="" href={logo.link}><img src={logo.image} alt={logo.name} className=""/></a>
                 </div>
             ))}

@@ -15,7 +15,7 @@ const MemberCard = ({image, name, role, description, social}) => {
         </div>
         <div className="flex flex-wrap gap-[20px] w-full text-center justify-around">
             {social.map((item, index) => (
-                <a className="text-[#009379] font-bold text-[14px]/[20px]" href={item.link}>{item.name}</a>
+                <a key={index} className="text-[#009379] font-bold text-[14px]/[20px]" href={item.link}>{item.name}</a>
             ))}
         </div>
     </div>
