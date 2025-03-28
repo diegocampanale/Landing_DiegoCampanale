@@ -10,7 +10,7 @@ const Testimonials = () => {
             <p className="text-[#2D2D2D] font-mulish ">See how our landing page ui kit is making an impact.</p>
         </div>
         {/* Cards Row */}
-        <div className="flex flex-wrap lg:flex-row gap-[60px] lg:gap-[30px] items-center justify-center">
+        <div className="flex flex-wrap md:flex-row gap-[60px] lg:gap-[30px] items-center justify-center ">
             {testimonials.map((testimonial, index) => (
                 <TestimonialCard key={index} {...testimonial} />
             ))}

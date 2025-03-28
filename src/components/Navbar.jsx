@@ -6,8 +6,8 @@ import { ArrowRight } from 'lucide-react';
 
 const Navbar = () => {
     return (
-        <nav className="top-0 bg-[#F8D57E] w-full z-50">
-            <div className="flex max-w-full h-[100px] mx-auto flex justify-between items-center p-[20px] lg:px-[50px]">
+        <nav className="top-0 bg-[#F8D57E] w-full h-[100px] p-[20px] lg:px-[50px]">
+            <div className="flex mx-auto justify-between items-center max-w-[1170px]">
                 {/* LOGO */}
                 <div className="flex items-center w-[179px] h-[32px] gap-[6px]">
                     <a href="#">
